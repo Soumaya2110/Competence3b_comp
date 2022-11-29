@@ -1,4 +1,9 @@
+
 import { createApp } from 'vue'
 import App from './App.vue'
+const app =  createApp(App)
 
-createApp(App).mount('#app')
+import ListTest from './components/ListTest.vue'
+app.component('MaListe', ListTest )
+
+app.mount('#app')
