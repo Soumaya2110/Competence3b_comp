@@ -3,7 +3,7 @@
    <br>
    <carousel></carousel>
    <br>
-   <formcont></formcont>
+   <expli></expli>
    <br>
    <footerv></footerv>
 
@@ -12,13 +12,13 @@
 <script>
 import CarrouselBibli from './CarrouselBibli.vue';
 import NavBar from './Navbar.vue'
-import PageContact from './PageContact.vue'
+import ExpSite from './ExpSite.vue'
 import FootEr from './FootEr.vue'
 export default {
     components: {
         'navbar': NavBar,
         'carousel': CarrouselBibli,
-        'formcont': PageContact,
+        'expli': ExpSite,
         'footerv': FootEr,
     }
 

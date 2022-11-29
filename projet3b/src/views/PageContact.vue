@@ -1,4 +1,10 @@
 <template>
+    <navbar></navbar>
+    <br>
+    <br>
+    <h1>Nous contacter</h1>
+    <br>
+<br>
      <div id="formvue">
          <section id="form">
             <div class="mb-3">
@@ -23,10 +29,18 @@
                     N’hésitez pas à nous contacter, nous serons heureux de répondre à toutes vos questions? </p>
             </section>
         </div>
-    <button @click="goHome()">Go home</button>
+        <br>
+        <br>
+    <button @click="goHome()">Retour à l'accueil</button>
+    <br>
+    <br>
+    <footerv></footerv>
 </template>
 
 <script>
+
+import NavBar from './Navbar.vue'
+import FootEr from './FootEr.vue'
  
   export default {
    
@@ -37,6 +51,10 @@
 
             
         }
+    },
+    components: {
+        'navbar': NavBar,
+        'footerv': FootEr,
     }
   };
 

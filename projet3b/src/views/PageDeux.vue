@@ -1,5 +1,8 @@
 <template>
+    <navbar></navbar>
     <section id="fond">
+        <br>
+        <br>
     <h2>Articles</h2>
     <div id="app">
 <div id="carte" v-for="item of items" :key="item.id">
@@ -13,11 +16,17 @@
 </div>
 </div>
 </div>
-    <button @click="goHome()">Go home</button>
+    <button @click="goHome()">Retour à l'accueil</button>
+    <br>
+    <br>
+<footerv></footerv>
+    
 </section>
 </template>
 
 <script>
+import FootEr from './FootEr.vue'
+import NavBar from './Navbar.vue'
  import axios from "axios";
   export default {
     name: "App",
@@ -41,6 +50,10 @@
 
             
         }
+    },
+    components: {
+        'navbar': NavBar,
+        'footerv': FootEr,
     }
   };
 
@@ -48,7 +61,7 @@
 
 <style scoped>
 #fond {
-    background-color: #ff5757;
+    background-color: rgba(0, 194, 203, 0.1);
 }
 
 h2 {
