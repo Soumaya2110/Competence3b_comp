@@ -1,6 +1,8 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <MaListe />
+  <navbar></navbar>
+  <carousel></carousel>
+  <router-view></router-view>
+  
 </template>
 
 <script>
