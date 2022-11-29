@@ -9,16 +9,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-            <router-link to="/">MaHome</router-link>
+            <router-link to="/">Accueil</router-link>
         </li>
         <li class="nav-item">
-            <router-link to="/deux">PageDeux</router-link>
+            <router-link to="/deux">Articles</router-link>
         </li>
         <li class="nav-item">
-            <router-link to="/deux">PageDeux</router-link>
+            <router-link to="/trois">Informations</router-link>
         </li>
         <li class="nav-item">
-            <router-link to="/deux">PageDeux</router-link>
+            <router-link to="/quatre">Contact</router-link>
         </li>
       
       

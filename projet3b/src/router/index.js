@@ -2,6 +2,7 @@ import {createRouter, createWebHistory } from 'vue-router'
 import MaHome from '@/views/MaHome'
 import PageDeux from '@/views/PageDeux'
 import PageDynamique from '@/views/PageDynamique'
+import PageContact from '@/views/PageContact'
 
 
 const router = createRouter({
@@ -19,11 +20,18 @@ const router = createRouter({
             component: PageDeux
         },
         {
-            name: 'dd',
-            path: '/dynamique/:id',
-            component: PageDynamique,
-            props: true
+            name: 'trois',
+            path: '/trois',
+            component: PageDynamique
+            
+        },
+        {
+            name: 'quatre',
+            path: '/quatre',
+            component: PageContact
+            
         }
+
     ]
 
 })
