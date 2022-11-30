@@ -33,6 +33,12 @@
               padding: 10px;
               font-size: 20px;
           }
+
+
+          .icone {
+            width: 34px;
+            height: 35px;
+        }
     
     
     </style>

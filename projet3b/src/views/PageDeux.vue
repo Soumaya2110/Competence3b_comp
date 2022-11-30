@@ -16,7 +16,7 @@
 </div>
 </div>
 </div>
-    <button @click="goHome()">Retour à l'accueil</button>
+    <button id="buttretour" @click="goHome()">Retour à l'accueil</button>
     <br>
     <br>
 <footerv></footerv>
@@ -60,6 +60,16 @@ import NavBar from './Navbar.vue'
 </script>
 
 <style scoped>
+#buttretour {
+    border: 0px;
+    color: #ff5757;
+    background-color: rgb(10, 65, 68);
+    padding: 5px;
+    border-radius: 10px;
+}
+#buttretour:hover {
+    background-color: rgba(0, 194, 203)
+}
 #fond {
     background-color: rgba(0, 194, 203, 0.1);
 }

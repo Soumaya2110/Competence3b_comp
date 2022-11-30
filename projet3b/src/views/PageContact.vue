@@ -31,7 +31,7 @@
         </div>
         <br>
         <br>
-    <button @click="goHome()">Retour à l'accueil</button>
+    <button id="buttretour" @click="goHome()">Retour à l'accueil</button>
     <br>
     <br>
     <footerv></footerv>
@@ -61,6 +61,17 @@ import FootEr from './FootEr.vue'
 </script>
 
 <style scoped>
+
+#buttretour {
+    border: 0px;
+    color: #ff5757;
+    background-color: rgb(10, 65, 68);
+    padding: 5px;
+    border-radius: 10px;
+}
+#buttretour:hover {
+    background-color: rgba(0, 194, 203)
+}
 
 #h1contact {
             text-align: center;

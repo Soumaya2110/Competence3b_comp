@@ -47,11 +47,52 @@
   
   <!-- Add "scoped" attribute to limit CSS to this component only -->
   <style scoped>
-  
 
-  li {
+  @media screen and (min-width: 375px) and (max-width: 667px) {
     
+
+    body {
+        width: 375px;
+        margin: 0px;
+        font-family: questrial;
+        
+    }
+    #logo {
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+    }
   }
+  @media screen and (min-width: 820px) and (max-width: 1180px) {
+    
+    /* body {
+         width: 820px;
+         margin: 0px;
+         font-family: questrial;
+       
+     }*/
+ 
+     #logo {
+         width: 120px;
+         height: 120px;
+         margin-left: 20px;
+     }
+    }
+    @media  screen and (min-width: 1440px) and (max-width: 2800px) {
+    
+    body {
+        margin: 0px;
+        font-family: questrial;
+      
+    }
+
+    #logo {
+        width: 120px;
+        height: 120px;
+        margin-left: 20px;
+    }
+  }
+ 
   .lien {
     text-decoration: none;
     color: rgba(0, 194, 203);
@@ -68,6 +109,9 @@
     background-color: #ff5757;
   }
 
+  #logo {
+    margin-top: 0px;
+  }
   
 
 
